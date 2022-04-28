@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loginform">  	
+		<!--Login-->
+		<div class="login" id="login">
+			<h3>Log In</h3>
+			<form>
+				<br><br><br>
+				<input type="text" id="loginemail" placeholder="Email">
+				<input type="text" id="loginpassword" placeholder="Password"><br><br>
+				<input type="button" id="loginbutton" value="Log In" onclick="logIn()"><br><br><br>
+				<p>Don't have account. <input type="button" id="signinbutton" value="Sign In" onclick="switchSignIn()"></p>
+			</form>
+		</div>
+		<!--Signin-->
+		<div class="signin" id="signin">
+			<h3>Sign In</h3>
+			<form>
+				<br><br>
+				<input type="text" id="signupusername" placeholder="Username">
+				<input type="text" id="signupemail" placeholder="Email">
+				<input type="text" id="signuppassword" placeholder="Password"><br><br>
+				<input type="button" id="loginbutton" value="Sign In" onclick="signUp()"><br><br>
+				<p>Alerdy have account. <input type="button" id="signinbutton" value="Log In" onclick="switchLogIn()"></p>
+			</form>
+		</div>	
+	</div>
+    <script src="login.js"></script>
+</body>
+</html>

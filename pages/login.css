@@ -1,0 +1,78 @@
+
+/* ---Body / background---*/
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family:'Times New Roman', Times, serif;
+	background: url(../slike/loginpozadina.jpg);
+    background-size: cover;
+}
+h3{
+	text-align: center;
+}
+::placeholder{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+/*Log in*/
+.login{
+	width: 310px;
+	height: 370px;
+	border: 1px white solid;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+}
+.login form{
+	margin-left: 70px;
+}
+.login input{
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#signinbutton{
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+#loginbutton{
+	margin-left: 45px;
+	width: 75px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 7px;
+	background-color: lime;
+	color: white;
+	border: none;
+}
+
+/*Sign in*/
+.signin{
+	width: 310px;
+	height: 370px;
+	border: 1px white solid;
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+	display: none;
+}
+.signin form{
+	margin-left: 70px;
+}
+.signin input{
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+}
