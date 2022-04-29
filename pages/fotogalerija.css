@@ -1,0 +1,61 @@
+/*---navigacija-----*/
+header{
+    height: 10%;
+    width: 100%;
+    background-color: #03495B;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.headertitle{
+    height: 100%;
+    width: 25%;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;    
+}
+.headerlinks{
+    margin-top: 1.75%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+.headerlinks a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+}
+/*--------------------------------------------------------*/
+.galerija{
+    display: flex;
+    flex-direction: row;
+}
+.otvaranjeizlozbe,.radionice{
+    margin: auto;
+    margin-top: 5%;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+.galerija1{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 7%;
+    display: none;
+}
+/*--------------------------------------------------------*/
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#butn{
+    border: none;
+    background: transparent;
+}
+#natrag{
+    border: none;
+    background-color: transparent;
+    margin-left: 600px;
+}
