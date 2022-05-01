@@ -1,0 +1,16 @@
+.container{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 7%;
+}
+#natrag{
+    border: none;
+    background: transparent;
+    margin-left: 600px;
+}
+body{
+    background-image: url('../slike/galeryback1.jpg');
+    background-size: auto;
+    background-blend-mode: 0.6;
+}

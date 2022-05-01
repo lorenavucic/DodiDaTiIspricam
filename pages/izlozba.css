@@ -40,6 +40,7 @@ h1{
 body{
     display: flex;
     flex-direction: column;
+    background-image: url('../slike/galeryback1.jpg');
 }
 .galerijaslika{
     display: flex;
@@ -47,7 +48,7 @@ body{
     margin: auto;
 }
 .slika{
-    border: 1px black solid;
+    margin-top: 5%;
     height: 600px;
     
 }
@@ -76,4 +77,23 @@ footer{
 footer a{
     margin-top: 1%;
     margin-left: 17%;
+}
+#botun{
+    width: 95px;
+    height: 30px;
+    font-size: 16px;
+    color: #007694;
+    border-radius: 5px;
+    border: 1px solid rgb(7, 10, 190);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#playbotun{
+    width: 205px;
+    margin-left: 6px;
+    height: 30px;
+    font-size: 16px;
+    margin-right: 6px;
 }
