@@ -2,7 +2,7 @@
 header{
     height: 10%;
     width: 100%;
-    background-color: #03495B;
+    background-color: #007694;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -26,8 +26,54 @@ header{
     color: white;
     margin-left: 5%;
 }
-.textbox{
+/*-----naslovi-------*/
+h1{
+    text-align: center;
+}
+/*-----oblikovanje teksat-------*/
+#uvod,#glavnitekst{
     width: 75%;
     text-align: left;
     padding-left: 10%;
+}
+/*----tijelo---*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+.galerijaslika{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.slika{
+    border: 1px black solid;
+    height: 600px;
+    
+}
+#galerija2,#galerija3,#galerija4,#galerija5,#galerija6,#galerija7,#galerija8,
+#galerija9,#galerija10,#galerija11,#galerija12,#galerija13,#galerija14,#galerija15,#galerija16{
+    display: none;
+}
+
+
+
+
+
+/*----podnozje----*/
+footer{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #03495B;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+footer a{
+    margin-top: 1%;
+    margin-left: 17%;
 }
